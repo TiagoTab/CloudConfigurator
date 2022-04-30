@@ -1,0 +1,105 @@
+
+.configurator-container{
+    max-width: 90%;
+}
+
+.servers-list-container{
+    position: relative;
+    padding: 10px;
+    background-color: #f1f1f196;
+    box-shadow: 0px -4px 9px #8080803b;
+}
+
+.servers-list-container h3{
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+
+/**
+Ram filter styling
+ */
+.ram-filter {
+    ul {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+
+        padding-inline-start: 0;
+    }
+
+    li {
+        list-style: none;
+        margin: 3px;
+    }
+
+    .ram-type{
+        text-transform: uppercase;
+
+    }
+}
+/**
+Storage Slider
+ */
+.slider-base {
+    margin-top: 24px;
+}
+
+
+/**
+Vue table
+ */
+
+tr.vtl-thead-tr {
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+.vtl-table thead th {
+    margin: 0 20px;
+    padding: 0 10px;
+    height: auto;
+
+}
+
+/**
+Simplify the vue table
+ */
+.vtl{
+    max-width: 780px;
+}
+thead.vtl-thead{
+    position: relative;
+    width: 100%;
+    display: table;
+}
+.vtl-paging-info{
+    display: none;
+}
+.vtl-paging-pagination-div{
+    display: none;
+}
+.vtl-paging-change-div{
+    display: none;
+}
+.vtl-tbody-tr{
+    font-size: 10pt;
+}
+.vtl-tbody {
+    max-height: 480px;
+    overflow-y: scroll;
+    display: block;
+    border-bottom: 1px solid #dee2e6;
+}
+@media only screen and (max-width: 700px) {
+    .vtl{
+        max-width: unset;
+    }
+    .vtl-tbody {
+        max-height: 1280px;
+        overflow-x: scroll;
+    }
+}

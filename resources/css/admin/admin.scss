@@ -1,0 +1,35 @@
+.option-container{
+    padding: 5px 25px;
+}
+
+.alert{
+   padding: 20px; border-radius: 5px;
+}
+.alert-success{
+    background-color: mediumseagreen; color: white;
+}
+
+.admin-submit{
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 1px 1px 6px #00000029;
+    background-color: #5685c4;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+}
+
+.admin-submit:hover{
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+    background-color: #293d57;
+    color: white;
+}
+
+hr{
+    height: 1px;
+    background-color: #80808024;
+}

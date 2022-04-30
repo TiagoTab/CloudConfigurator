@@ -1,0 +1,1 @@
+let btnGoToTop=document.getElementById("btn-top");function scrollFunction(){document.body.scrollTop>20||document.documentElement.scrollTop>20?btnGoToTop.style.display="block":btnGoToTop.style.display="none"}function topFunction(){document.body.scrollTop=0,document.documentElement.scrollTop=0}window.onscroll=function(){scrollFunction()};
